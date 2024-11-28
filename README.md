@@ -3,7 +3,7 @@ To enhance the clarity of the chest X-ray images, I implemented image enhancemen
 techniques in both the spatial and frequency domains
 
 # **Spatial Domain Enhancement**
-I employed two techniques:
+I applied two techniques:
 
 1. **Histogram Equalization:** improves the contrast of an image by
 redistributing the intensity values, enhancing the visibility of details in
@@ -29,7 +29,8 @@ in darker areas where details were initially harder to distinguish.
 • Image Smoothing: reduce the noise, also slightly blurred fine details, which
 is typical when applying smoothing techniques.
 Example Visualization:
-![Uploading output.png…]()
+![output](https://github.com/user-attachments/assets/2ea89b0e-b11e-435d-9c83-b663b9e113a5)
+
 
 2. **Frequency Domain Results**
 The frequency domain enhancements also led to distinct changes in image quality.
@@ -39,7 +40,8 @@ caused some loss of fine detail.
 image, but at the cost of amplifying noise in certain areas.
 
 Example Visualization:
-![Uploading output2.png…]()
+![output2](https://github.com/user-attachments/assets/57ecbd90-425e-4e78-907d-c80382ae71f7)
+
 
 
 # **Analysis and Conclusion**
